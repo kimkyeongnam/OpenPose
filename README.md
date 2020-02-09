@@ -14,6 +14,15 @@ This repository is made for examples about [OpenPose](https://github.com/CMU-Per
    pip install opencv-python
    ```
 
+<br><br>
+## Getting Started
+```
+git clone https://github.com/kimkyeongnam/OpenPose.git
+cd OpenPose
+
+python /img/test.py        # check img file
+python /video/testVIDEO.py  # check video file
+```
 
 <br><br>
 ## Result
