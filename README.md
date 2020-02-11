@@ -22,6 +22,7 @@ class CocoPart(Enum):
     LEar = 17
     Background = 18
 ```
+![image](https://user-images.githubusercontent.com/38516906/74257939-df6a1480-4d38-11ea-9a3c-98ff8b156b17.png)
 
 1. WebCam (Using Ipad/Iphone cam as Ubuntu webcam)  
    * Description: https://steemit.com/technology/@tech.ninja/tech-quickie-convert-your-ipad-iphone-into-a-good-wireless-webcam-in-linux
