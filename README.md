@@ -19,7 +19,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 ##### solution 2)  
-```docker run -it --rm **--gpus all** -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose```  
+```docker run -it --rm --gpus all -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose```  
 ##### solution 3)  
 ```sudo pkill -SIGHUP dockerd```
 
