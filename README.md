@@ -2,7 +2,18 @@
 This repository is made for examples about [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) exercise.
 
 <br><br>
+## Installation
+```
+git clone https://github.com/esemeniuc/openpose-docker
+cd openpose-docker
+docker run -it --rm --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose
+```
+If you got a error message like  
+```docker: Error response from daemon: Unknown runtime specified nvidia.```,  
+please use docker run -it --rm **--gpus all** -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose
 
+
+<br><br>
 ## Requirement
 1. You need the MPI and COCO models.  
    If you have a model that you have trained yourself through your algorithm, you can use it.
