@@ -12,16 +12,14 @@ If you got a error message like
 ```docker: Error response from daemon: Unknown runtime specified nvidia.```, There are 3 solutions.  
 Please use these solutions instead of ```docker run -it --rm --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose```(last command)
 <br><br>
-(solution 1)
+##### solution 1)
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
-<br>
-(solution 2)  
+##### solution 2)  
 ```docker run -it --rm **--gpus all** -e NVIDIA_VISIBLE_DEVICES=0 cwaffles/openpose```  
-<br>
-(solution 3)  
+##### solution 3)  
 ```sudo pkill -SIGHUP dockerd```
 
 <br><br>
