@@ -2,7 +2,7 @@
 This repository is made for examples about [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) exercise.
 
 <br><br>
-## Installation
+## Installation(OpenPose)
 ```
 git clone https://github.com/esemeniuc/openpose-docker
 cd openpose-docker
