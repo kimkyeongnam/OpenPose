@@ -20,6 +20,7 @@ A skeleton-based real-time online action recognition project, classifying and re
  - numpy & scipy 
  - pathlib
  
+```pip install -r requirements.txt```(python2) or ```pip3 install -r requirements.txt```(python3)
  
 ------
 ## Usage
