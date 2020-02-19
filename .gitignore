@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
-webcam_tf_out.mp4
 
 # C extensions
 *.so
@@ -121,4 +120,4 @@ Pose/graph_models/mobilenet_thin/graph.pb
 Pose/graph_models/VGG_origin/graph_opt.pb
 test_out/webcam_test_out.mp4
 origin_data.txt
-test.mp4
+merge_data.py
